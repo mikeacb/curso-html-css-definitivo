@@ -1,0 +1,8 @@
+/*
+General Sibling
+
+Modificar todas las etiquetas p que tengan un hermano general h2 (etiqueta)
+*/
+h2 ~ p {
+    color: red;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+</head>
+<body>
+    <main>
+        <section>
+            <!-- 
+                Controls: muestra los controles para manipular el video.
+                Preload: descarga el video mientras se va descargaando el sitio.
+                Src: con #t=[tiempo],[tiempo] te dice el inicio y final en el que es preferible el video.
+
+                SOURCE: es por si se cuentan con diferentes fuentes o tipos de videos.  
+            -->
+            <video controls preload="auto">
+                <source src="#t=10,60">
+                <source src="#t=11,61">
+                <source src="#t=12,62">
+            </video>
+        </section>
+    </main>
+</body>
+</html>

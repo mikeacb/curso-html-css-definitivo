@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.nav {
+    background-color: aqua;    
+    padding: 20px;
+    list-style: none;
+    text-align: end;
+}
+
+    .nav .logo {
+        font-size: 1.8rem;
+        text-align: start;
+        padding-left: 15px;
+        padding-right: 15px;
+        position: relative;
+        top: 10px;
+    }
+
+    .nav li {
+        display: inline-block;
+        font-size: 1.8rem;
+        padding-left: 15px;
+        padding-right: 15px;
+        position: relative;
+        bottom: 10px;
+    }
+
+.side-panel {
+    background-color: blueviolet;
+    position: absolute;
+    width: 35vw;
+    height: 100vh;
+}
+
+    .ads {
+        background-color: beige;
+        height: 50px;
+        width: 32.5vw;
+        margin-left: 10px;
+        margin-top: 10px;
+        padding: 10px;
+    }
+
+.main-panel {
+    background-color: chartreuse;
+    width: 100vw;
+    height: 100vh;
+}

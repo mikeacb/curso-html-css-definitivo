@@ -1,0 +1,15 @@
+/*
+Em es un acronimo de elemento y lo que hace es tomar el tamaño
+de fuente que tenga el padre directo, ejemplo:
+*/
+.text-container {
+    font-size: 1em;
+}
+.text-container div{
+    font-size: 1.5em;
+}
+/*
+En este caso toma el tamaño de fuente por defecto que tiene
+el HTML (ejemplo 18px), lo que vendría siendo que 1em = 18px
+en el ejemplo anterior vendría siendo 27px.
+*/

@@ -1,0 +1,8 @@
+/*
+Adjacent Sibling
+
+Colocar el color rojo en las etiquetas h2 que estén cercana a una etiqueta p
+*/
+h2 + p {
+    color: red;
+}

@@ -1,0 +1,125 @@
+<!-- HTML 5-->
+<!DOCTYPE html>
+<!-- Lenguaje del sitio web-->
+<html lang="en">
+	<head>
+		<!--
+		* Etiquetas
+		HEAD: va todo lo importante para construir el proyecto pero que no sea visual para el usuairo (js, css, videos, img).
+		TITLE: es el título de la página que estamos desarrollando.
+		LINK: van referenciados los archivos o documentos que vamos a usar.
+    
+		* Atributos
+		Charset-UTF8: es para qu el navegador interprete caracteres especiales.
+	
+		Name
+			*Valores
+			Description: es la descripción que aparece en el link de abajo antes de entrar y ayuda al SEO para la página.
+		
+			Robots: no solo existe el robot de google existen otros buscadores en otros navegadores que nos ayudan
+			a realizar búsquedas más especificas. Lo que hace es decirle a los robots de los navegadores que estamos
+			autorizando que puedan ayudar a colocar a nuestra página con relación a la búsqueda que se hace.
+
+			Viewport: es especializado para las páginas responsive design
+		-->
+		<meta charset="UTF-8">
+   	 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="description" content="Esta es la descripción que aparece en el link de abajo">
+		<meta name="robots" content="index,follow">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<title>Principal</title>
+	</head>
+	<body>
+		<!-- Existen etiquetas de contenido y etiquetas contenedoras -->
+		<header>
+			<nav></nav>
+		</header>
+		<main>
+			<section>
+				<article></article>
+			</section>
+			<!-- Lista desordenada -->
+			<ul>
+				<!-- List item -->
+				<li> Manzana </li>
+			</ul>
+			<!-- Lista ordenada -->
+			<ol>
+				<!-- List item -->
+				<li> Uva </li>
+			</ol>
+
+			<h1>Lista del super</h1>
+			<ul>
+				<li> Frutas </li>
+				<ol>
+					<li> Manzana </li>
+					<li> Platano </li>
+				</ol>
+				<li> Carnes </li>
+				<ol>
+					<li> Pollo </li>
+					<li> Carne molida </li>
+				</ol>
+				<li> Verduras </li>
+				<ol>
+					<li> Limón </li>
+					<li><a href="https://www.recetasnestle.com.mx/recetas/postres-pay-zanahoria"> Zanahoria </a></li>
+				</ol>
+			</ul>
+
+			<!-- 
+				Lossy vs Lossless
+				Con pérdida / Sin pérdida
+
+					Existen dos tipos de imágenes y eso depende de cómo el formato maneje la imágen.
+				
+					Lossless: capturan todos los datos de su archivo original. No se pierde nada del archivo
+					original. El archivo aún puede estar comprimido, pero todos los formatos sin pérdida podrán
+					reconstruir su imagen a su estado original.
+
+					Lossy: se aproximan a su imágen original. Esto reduce la calidad de la imágen.
+				
+					Ejemplos
+
+					Lossless
+
+						- GIF
+						- PNG 8/24
+				
+					Lossy
+
+						- JPG/JPEG
+						- SVG (para pantallas retina o de diferentes resoluciones)
+
+				Optimizando imágenes
+
+					El tamaño promedio ideal es de 70-100KB
+
+					Opciones
+
+						- Mejora el tamaño de tus imágenes
+							- Tiny PNG
+						- Retira metadatos de tus imágenes
+							- Verexif
+			-->
+		</main>
+		<footer>
+			<p> Soy un texto</p>
+			<h1> Soy un H1 </h1>
+			<a href="./img/index.html"> Soy una imágen </a>
+			<br>
+			<a href="./video/index.html"> Soy un video </a>
+			<br>
+			<a href="./forms/index.html"> Soy un form </a>
+			<br>
+			<a href="./calendario/index.html"> Soy un calendario </a>
+			<br>
+			<a href="./autocomplete-require/index.html"> Soy un autocomplete y required </a>
+			<br>
+			<a href="./select/index.html"> Soy un select </a>
+			<br>
+			<a href="./input-button/index.html"> Soy un input </a>
+		</footer>
+	</body>
+</html>

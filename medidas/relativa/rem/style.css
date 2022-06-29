@@ -1,0 +1,25 @@
+/*
+Rem siempre va a hacer referencia al tamaño de letra que
+tenga la etiqueta HTML
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    /*
+    Esto se hace para que el font-size sea de 10px
+    Lo único que estará cambiando es el rem
+    1rem = 10px
+    2rem = 20px
+    3rem = 30px
+    */
+    font-size: 62.5%;
+}
+p {
+    font-size: 1.6rem;
+}
+main div {
+    font-size: 1.6rem;
+}

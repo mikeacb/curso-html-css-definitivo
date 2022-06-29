@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select</title>
+</head>
+<body>
+    <main>
+        <!--
+            Forma de hacer un select
+        -->
+        <select name="cursos" id="">
+            <option value="Java">Java</option>
+            <option value=".Net">.Net</option>
+            <option value="CSS">CSS</option>
+        </select>
+        <br>
+        <!--
+            Forma ideal de hacer un select
+        -->
+        <input list="cursos">
+        <datalist id="cursos">
+            <option value="Java"></option>
+            <option value=".Net"></option>
+            <option value="CSS"></option>
+        </datalist>
+    </main>
+</body>
+</html>

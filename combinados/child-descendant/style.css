@@ -1,0 +1,17 @@
+/*
+Child
+
+De una etiqueta p que sea hija directa de una etiqueta div
+*/
+div > p {
+    color: red;
+}
+
+/*
+Descendant
+
+Todas las etiquetas p que estén dentro de una etiqueta div
+*/
+div p {
+    color: blue;
+}
